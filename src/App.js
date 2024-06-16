@@ -5,7 +5,7 @@ function App() {
 
   var count = 0;
   const [board, setBoard] = useState(Array(9).fill(null));
-  const [info,setInfo] = useState('click to play')
+  const [info,setInfo] = useState('click to select block')
   const [logo,setLogo] = useState("x")
   const [isGameOver, setIsGameOver] = useState(false);
   var winningIDs = [];
