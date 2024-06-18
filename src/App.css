@@ -9,9 +9,31 @@
   display: flex;
 }
 
-input {
+.cell {
   height: 100px;
   width: 100px;
   border: 1px solid black;
   font-size: x-large;
+}
+
+.inputName {
+  width: 500px;
+  height: 40px;
+  border: 1px solid;
+  outline: none;
+  margin: 10px;
+}
+
+.button {
+  width: 100px;
+  height: 50px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.playerInfo{
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
