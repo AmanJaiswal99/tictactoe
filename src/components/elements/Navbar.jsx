@@ -12,7 +12,7 @@ function Navbar() {
     <nav className="navbar">
     <div className="navbar-logo">Logo</div>
     <ul className={`navbar-links ${menuOpen ? 'active' : ''}`}>
-      <li><Link to='/'>Home</Link></li>
+      <li><Link to='/tictactoe'>Home</Link></li>
     </ul>
     <div className={`navbar-menu ${menuOpen ? 'active' : ''}`} onClick={toggleMenu}>
       <span></span>
