@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../../styles/blogs.css';
 
 function Blogs() {
@@ -7,9 +8,9 @@ function Blogs() {
             <h1 className='page-title'>Blogs</h1>
             <p>Welcome to my blog section!</p>
             <ul>
-                <li><a href="/blog1">Blog 1</a></li>
-                <li><a href="/blog2">Blog 2</a></li>
-                <li><a href="/blog3">Blog 3</a></li>
+                <li><Link to="/blog1">Blog 1</Link></li>
+                <li><Link to="/blog2">Blog 2</Link></li>
+                <li><Link to="/blog3">Blog 3</Link></li>
             </ul>
         </div>
      );
