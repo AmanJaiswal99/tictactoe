@@ -12,6 +12,7 @@ function Games() {
         <ol>
         <li><Link to="/tictac">Tic Tac Toe</Link></li>
         <li><Link to="/dino">Dino jump</Link></li>
+        <li><Link to="/pingpong">Ping pong</Link></li>
         {/* Add more game links here */}
       </ol>
     </div>
