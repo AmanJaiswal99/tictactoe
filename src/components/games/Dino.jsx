@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 
-export default function DinoGame() {
+export default function Dino() {
   const dinoRef = useRef(null);
   const obstacleRef = useRef(null);
   const [isJumping, setIsJumping] = useState(false);
