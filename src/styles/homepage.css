@@ -1,0 +1,25 @@
+.homepage {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-size: 2.5rem;
+    font-weight: 1500;
+    font-family: cursive;
+    margin-bottom: 20px;
+}
+
+.homepage-list {
+    list-style-type: none;
+    display: flex;
+}
+.homepage-list li a {
+    color: blue;
+}
+.home-img{
+    width: 800px;
+    height: auto;
+}
