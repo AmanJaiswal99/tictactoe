@@ -7,6 +7,7 @@ import Dino from './components/games/Dino';
 import About from './components/pages/About';
 import Games from './components/games/Games';
 import Blogs from './components/blogs/Blogs';
+import PingPongGame from './components/games/PingPongGame';
 function App() {
 
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/about" element={<About/>} />
         <Route path="/games" element={<Games/>} />
         <Route path="/blogs" element={<Blogs/>} />
+        <Route path="/pingpong" element={<PingPongGame/>} />
     </Routes>
     </div>
     </Router>

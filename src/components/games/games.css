@@ -9,3 +9,24 @@
 li{
     margin: 10px;
 }
+
+.ping-pong-game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 15px;
+    font-family: Arial;
+    color: grey;
+    font-weight: lighter;
+}
+
+.ping-pong-game > button {
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: black; /* Green */
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
