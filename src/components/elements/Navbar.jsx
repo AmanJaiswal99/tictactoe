@@ -10,15 +10,9 @@ function Navbar() {
     };
   return (
     <nav className="navbar">
-    <div className="navbar-logo">Logo</div>
-    <ul className={`navbar-links ${menuOpen ? 'active' : ''}`}>
-      <li><Link to='/tictactoe'>Home</Link></li>
+    <ul className='navbar-links'>
+      <li><a href='/tictactoe'>Home</a></li>
     </ul>
-    <div className={`navbar-menu ${menuOpen ? 'active' : ''}`} onClick={toggleMenu}>
-      <span></span>
-      <span></span>
-      <span></span>
-    </div>
   </nav>
   )
 }

@@ -5,6 +5,13 @@
   align-items: center;
 }
 
+.page {
+  padding: 20px;
+}
+
+.page-title {
+  text-align: center;
+}
 .row {
   display: flex;
 }
