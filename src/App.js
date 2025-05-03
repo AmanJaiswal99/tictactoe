@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import Tictactoe from './components/games/Tictactoe';
 import Homepage from './components/pages/Homepage';
 import Navbar from './components/elements/Navbar';
