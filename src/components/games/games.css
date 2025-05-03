@@ -30,3 +30,64 @@ li{
     border: none;
     border-radius: 5px;
 }
+
+.game-container {
+    text-align: center;
+    margin-top: 20px;
+    font-family: sans-serif;
+  }
+  
+  .game {
+    width: 600px;
+    height: 200px;
+    border: 2px solid #333;
+    margin: auto;
+    position: relative;
+    background-color: #f2f2f2;
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+  
+  .dino {
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 50%; /* Make it a circle */
+    position: absolute;
+    bottom: 0;
+    left: 50px;
+    top: 160px;
+    transition: top 0.2s;
+    z-index: 1;
+  }
+  
+  .dino.jump {
+    animation: jump 0.5s ease-out;
+  }
+  
+  .obstacle {
+    width: 0;
+    height: 0;
+    position: absolute;
+    bottom: 0;
+    left: 600px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 40px solid black; /* ▼ triangle pointing upward */
+    animation: obstacleMove 2s infinite linear;
+    z-index: 0;
+  }
+  
+  
+  
+  @keyframes jump {
+    0% { top: 160px; }
+    50% { top: 80px; }
+    100% { top: 160px; }
+  }
+  
+  @keyframes obstacleMove {
+    0% { left: 600px; }
+    100% { left: -20px; }
+  }
+  
