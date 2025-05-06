@@ -11,6 +11,9 @@ h1{
     font-family: cursive;
     margin-bottom: 20px;
 }
+h2{
+    margin-bottom: 20px;
+}
 
 .homepage-list {
     list-style-type: none;

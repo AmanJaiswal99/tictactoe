@@ -8,6 +8,7 @@ import About from './components/pages/About';
 import Games from './components/games/Games';
 import Blogs from './components/blogs/Blogs';
 import PingPongGame from './components/games/PingPongGame';
+import Contact from './components/pages/Contact';
 function App() {
 
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/games" element={<Games/>} />
         <Route path="/blogs" element={<Blogs/>} />
         <Route path="/pingpong" element={<PingPongGame/>} />
+        <Route path="/contact" element={<Contact/>} />
     </Routes>
     </div>
     </Router>

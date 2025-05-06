@@ -26,6 +26,12 @@ function Homepage() {
           <li>
             <Link to='/blogs'>Blogs</Link>
           </li>
+          <li>
+            <p>|</p>
+          </li>
+          <li>
+            <Link to='/contact'>Contact</Link>
+          </li>
         </ul>
     </div>
   )
