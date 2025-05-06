@@ -128,8 +128,8 @@ const PingPongGame = () => {
     paddle.current.dx = 0;
     ball.current.x = 240;
     ball.current.y = 150;
-    ball.current.dx = 3;
-    ball.current.dy = -3;
+    ball.current.dx = 5;
+    ball.current.dy = -5;
     timerRef.current = 0;
     setDisplayTimer(0);
     setGameOver(false);
